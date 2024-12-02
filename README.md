@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Reception extends JFrame {
-
+n
     Reception(){
 
         JPanel panel = new JPanel();
