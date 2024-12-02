@@ -85,3 +85,13 @@ JButton btn2 = new JButton("room");
             @Override
             public void actionPerformed(ActionEvent e) {
             }
+             JButton btn6 = new JButton("patient discharge");
+        btn6.setBounds(270,100,200,30);
+        btn6.setBackground(new Color(246,215,118));
+        panel1.add(btn6);
+        btn6.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            }
+        });
+
