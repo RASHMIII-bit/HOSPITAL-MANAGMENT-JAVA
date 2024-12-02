@@ -48,3 +48,40 @@ public class Reception extends JFrame {
 
             }
         });
+JButton btn2 = new JButton("room");
+        btn2.setBounds(30,50,200,30);
+        btn2.setBackground(new Color(246,215,118));
+        panel1.add(btn2);
+        btn2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                                   }
+                               });
+
+        JButton btn3 = new JButton("department");
+        btn3.setBounds(30,100,200,30);
+        btn3.setBackground(new Color(246,215,118));
+        panel1.add(btn3);
+        btn3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            }
+        });
+
+        JButton btn4 = new JButton("add empolyee info");
+        btn4.setBounds(270,15,200,30);
+        btn4.setBackground(new Color(246,215,118));
+        panel1.add(btn4);
+        btn4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            }
+        });
+        JButton btn5 = new JButton("patient info");
+        btn5.setBounds(270,58,200,30);
+        btn5.setBackground(new Color(246,215,118));
+        panel1.add(btn5);
+        btn5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            }
