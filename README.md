@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Reception extends JFrame {
+public class Reception extends JFrame {{
 n
     Reception(){
 
